@@ -1,0 +1,23 @@
+.box {
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+    border: solid black;
+    border-width: 10px 5px;
+    transition: transform 1s linear 1s;
+}
+
+body:hover .box{
+    /* transform: rotate(0.5turn); */
+    /* transform: scale(1.5, 0.5); */
+    transform: skewX(10deg);
+    /* transform: translate(50%); */
+    /* transform: translate(100px) rotate(120deg) scale(0.5); */
+    /* transform: rotateX(180deg); */
+}

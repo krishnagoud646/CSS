@@ -1,0 +1,23 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+a {
+    margin: 0px 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.navbar {
+    text-align: center;
+}
+/* body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+   */

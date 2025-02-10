@@ -1,0 +1,10 @@
+:root {
+    --primary-color:#98ff1a;
+}
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    background-color: var(--primary-color);
+}
