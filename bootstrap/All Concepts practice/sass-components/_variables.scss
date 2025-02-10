@@ -1,0 +1,44 @@
+@use "sass:math";
+
+$primary-color: #f77e7e;
+$secondary-color: #4b57a4;
+$warning: #caca4c;
+$danger: #c92424;
+
+//Margin
+$initial-margin: 0.25rem;
+
+// padding
+$initial-padding: 0.25rem;
+// $pd-sm: $initial-padding * 2;
+// $pd-md: $initial-padding * 3;
+// $pd-lg: $initial-padding * 4;
+// $pd-xl: $initial-padding * 6;
+// $pd-xxl: $initial-padding * 8;
+// @debug math.div(10, 2);
+// @debug math.floor(234.9);
+// @debug 10 != 10;
+
+// BorderP
+$initial-border-thickness: 1px;
+$initial-border-radius: 0.25rem;
+
+//img-size
+$img-size: 50,80,100,120,150,200;
+
+//Colors
+$colors: (
+  "primary": $primary-color,
+  "secondary": $secondary-color,
+  "error": $danger,
+  "warning": $warning,
+  "light": white,
+  "dark": black,
+  "blue": #1919e6,
+  "red": #e61919,
+  "yellow": #e6e619,
+  "green": #19e635,
+  "orange": #ffa600,
+  "purple": #9900ff,
+  "gray": #808080,
+);
