@@ -1,0 +1,55 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .contact-form {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  label {
+    color: white;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #1324e4;
+    color: white;
+  }
+
+  section {
+    padding: 10px;
+  }
+  header {
+    padding: 10px;
+  }
+  label {
+    margin-top: 10px;
+  }
+  input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: solid 1px #3498db;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+  }
+
+  

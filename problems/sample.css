@@ -1,0 +1,37 @@
+/* Ensure the body and html take up the full viewport height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.background-image {
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh; /* Cover the full viewport height */
+    width: 100%;
+    z-index: -1; /* Make sure the content scrolls above it */
+}
+
+.sticky-section {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; /* Full width of the viewport */
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent to see the background */
+    color: white; /* Text color */
+    padding: 10px 0; /* Padding for the header */
+    text-align: center; /* Center the text */
+    z-index: 1000; /* Ensure it stays above the background image */
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better readability */
+    min-height: 200vh; /* Just to ensure there's enough content to scroll */
+}
